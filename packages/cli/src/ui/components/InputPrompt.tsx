@@ -182,7 +182,6 @@ export const InputPrompt: React.FC<InputPromptProps> = ({
     [resetCompletionState, buffer, completionSuggestions, slashCommands],
   );
 
-
   const handleInput = useCallback(
     (key: Key) => {
       if (!focus) {
